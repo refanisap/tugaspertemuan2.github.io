@@ -1,0 +1,54 @@
+.header {
+    font-size: 20px;
+    padding: 60px;
+    background-color: brown;
+    text-align: center;
+    color: black;
+}
+
+.badan{
+    height: 500px;
+}
+.sidebar{
+    width: 15%;
+    height: 134%;
+    float: left;
+    background-color: seagreen;
+}
+
+.sidebar ul{
+    list-style: none;
+}
+.sidebar ul li{
+    padding-top: 10px;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    color: yellowgreen;
+}
+.sidebar ul li a:hover{
+    background-color: dimgrey;
+    padding: 10px;
+}
+ article{
+     padding: 2%;
+ }
+
+input[type="text"], 
+input[type="submit"],
+input[type="reset"],
+input[type="radio"],
+label,
+select,
+option{
+    margin: 10px;
+}
+
+
+ footer {
+    padding: 20px;
+    color: black;
+    background-color: darkgreen;
+    text-align: center;
+    font-weight: bold;
+ }
